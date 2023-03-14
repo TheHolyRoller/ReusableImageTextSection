@@ -1,0 +1,166 @@
+
+
+*, *::after, *::before{
+    
+    /* Remove the padding here  */
+    padding: 0; 
+    margin: 0; 
+    
+    /* Add in the box sizing here  */
+    box-sizing: border-box;
+    
+    /* Add in the background color and outline here  */
+    background-color: rgba(99, 37, 37, 0.4);
+    outline: 2px solid green;
+    
+}
+
+
+
+html{
+
+/* Add in the scroll behaviour here  */
+    scroll-behavior: smooth;
+    
+
+}
+
+
+body{
+/* Add in the responsive dimensions here  */
+    width: 100vw; 
+    min-height: 100vh;
+    position: relative; 
+    
+    /* Remove the padding here  */
+    padding: 0px;
+    margin: 0px; 
+    
+    /* Add in the styling and background color here  */
+    background-color: #444; 
+    color: lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* Add in the main container here  */
+.positionContainer{
+    
+    /* Center the holding container here  */
+    width: 100vw; 
+    display: grid;
+    justify-content: center;
+    position: relative; 
+    
+    
+}
+
+.mainContainer{
+    
+    /* Add in the responsive dimensions of the container here  */
+    
+    /* Clamp the height and width here  */
+    width: clamp(20rem, 65vw + 1rem, 70rem);
+    background-color: antiquewhite;
+    
+    
+    /* Add in the Grid layout of the container here  */
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem, 1fr));
+    
+}
+
+
+.sectionTitleContainer{
+
+    
+    
+    
+}
+
+.sectionTitle{
+
+    
+    
+    
+}
+
+.imageContainer{
+
+
+    /* Add in the background image here  */
+    background-image: url("https://images.unsplash.com/photo-1678614033802-d8b11cd7fb93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60");   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Clamp the height and width here  */
+    
+    height: clamp(15rem, 25vw + 1rem, 35rem); 
+    
+}
+
+.textContainer{
+    
+    display: grid;
+    align-content: center;
+    
+}
+
+
+.headerContainer{
+    
+    display: grid;
+    justify-content: center;
+    /* margin-top: -2rem;  */
+    /* margin-bottom: 1rem;  */
+    
+    
+}
+
+.header{
+
+    
+    
+}
+
+
+
+.paragraphContainer{
+    
+    display: grid;
+    align-content: center;
+    background-color: navy;
+    
+
+    
+}
+
+.paragraph{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
